@@ -1,0 +1,75 @@
+.base-app {
+  display: flex;
+  min-height: 100vh;
+  background: #0f1219;
+  color: #e8eaed;
+}
+
+.base-app__sidebar {
+  width: 220px;
+  flex-shrink: 0;
+  padding: 1rem 0.75rem;
+  border-right: 1px solid #2a3142;
+  background: #141922;
+}
+
+.base-app__brand {
+  font-size: 0.75rem;
+  font-weight: 600;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: #8b95a8;
+  padding: 0 0.5rem 0.75rem;
+  margin-bottom: 0.5rem;
+  border-bottom: 1px solid #2a3142;
+}
+
+.base-app__nav {
+  display: flex;
+  flex-direction: column;
+  gap: 0.25rem;
+}
+
+.base-app__nav a {
+  display: block;
+  padding: 0.5rem 0.65rem;
+  border-radius: 6px;
+  color: #c5cad6;
+  text-decoration: none;
+  font-size: 0.9rem;
+  transition: background 0.15s, color 0.15s;
+}
+
+.base-app__nav a:hover {
+  background: #1e2430;
+  color: #fff;
+}
+
+.base-app__nav a.active {
+  background: #243044;
+  color: #7eb8ff;
+}
+
+.base-app__main {
+  flex: 1;
+  padding: 1.25rem 1.5rem;
+  overflow: auto;
+}
+
+.base-app__main-inner {
+  max-width: 960px;
+}
+
+.base-page-title {
+  font-size: 1.25rem;
+  font-weight: 600;
+  margin: 0 0 1rem;
+  color: #fff;
+}
+
+.base-page-desc {
+  margin: 0 0 1.25rem;
+  font-size: 0.9rem;
+  color: #9aa3b5;
+  line-height: 1.5;
+}
