@@ -63,6 +63,31 @@ export const routeConfig: RouteConfigValue = {
           label: 'Web AR',
           Component: lazy(() => import('../appliactions/baseApplication/pages/WebAr')),
         },
+        {
+          path: 'updateDom',
+          label: '深层对象更新',
+          Component: lazy(() => import('../appliactions/baseApplication/pages/UpdateDomTest.tsx')),
+        },
+        {
+          path: 'listSearch',
+          label: '超大列表搜索',
+          Component: lazy(() => import('../appliactions/baseApplication/pages/ListSearchTest.tsx')),
+        },
+        {
+          path: 'taskManage',
+          label: '多重任务优先级管理',
+          Component: lazy(() => import('../appliactions/baseApplication/pages/TaskManageTest.tsx')),
+        },
+        {
+          path: 'hugeStateManage',
+          label: '复杂状态管理',
+          Component: lazy(() => import('../appliactions/baseApplication/pages/HugeStateManageTest.tsx')),
+        },
+        {
+          path: 'useDeferredValue',
+          label: 'useDeferredValue',
+          Component: lazy(() => import('../appliactions/baseApplication/pages/hookTest/UseDeferredValueTest.tsx')),
+        },
       ],
     },
   ],
