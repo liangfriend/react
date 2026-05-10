@@ -5,7 +5,7 @@ import {
 } from 'react'
 
 const WITHOUT_DEFERRED =
-  false
+  true
 
 const DATA = Array.from(
   {length: 50000},

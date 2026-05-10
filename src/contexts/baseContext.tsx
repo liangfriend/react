@@ -88,6 +88,42 @@ export const routeConfig: RouteConfigValue = {
           label: 'useDeferredValue',
           Component: lazy(() => import('../appliactions/baseApplication/pages/hookTest/UseDeferredValueTest.tsx')),
         },
+        {
+          path: 'useActionState',
+          label: 'useActionState',
+          Component: lazy(() => import('../appliactions/baseApplication/pages/hookTest/UseActionStateTest.tsx')),
+        },
+        {
+          path: 'useDebugValue',
+          label: 'useDebugValue',
+          Component: lazy(() => import('../appliactions/baseApplication/pages/hookTest/UseDebugValueTest.tsx')),
+        },
+        {
+          path: 'useEffectEvent',
+          label: 'useEffectEvent',
+          Component: lazy(() => import('../appliactions/baseApplication/pages/hookTest/useEffectEventTest.tsx')),
+        },
+        {
+          path: 'useImperativeHandle',
+          label: 'useImperativeHandle',
+          Component: lazy(() => import('../appliactions/baseApplication/pages/hookTest/useImperativeHandleTest.tsx')),
+        },
+        {
+          path: 'useOptimistic',
+          label: 'useOptimistic',
+
+          Component: lazy(() => import('../appliactions/baseApplication/pages/hookTest/useOptimisticTest.tsx')),
+        },
+        {
+          path: 'useSyncExternalStore',
+          label: 'useSyncExternalStore',
+          Component: lazy(() => import('../appliactions/baseApplication/pages/hookTest/useSyncExternalStoreTest.tsx')),
+        },
+        {
+          path: 'useTransition',
+          label: 'useTransition',
+          Component: lazy(() => import('../appliactions/baseApplication/pages/hookTest/useTransitionTest.tsx')),
+        },
       ],
     },
   ],
